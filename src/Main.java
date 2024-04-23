@@ -3,5 +3,9 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("this is first statement");
+        Main.print();
+    }
+    public static void print(){
+        System.out.println("new change");
     }
 }
